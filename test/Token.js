@@ -34,7 +34,7 @@ describe("Token Contract", function () {
 
 describe("Balances", function (){
   it("Should return zero for an account without tokens", async function (){
-    expect(await hardhatToken.balanceOf(addr3.address)).to.be.equal(0);
+    expect(await hardhatToken.balanceOf(addr2.address)).to.be.equal(0);
   });
 
 });
